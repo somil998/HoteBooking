@@ -3,20 +3,20 @@
 <title>Detail</title>
 <div>
 <body>
-    <div>
-        <a href="index.html">
-<img src="\assests\images\logo.png" height="100" width="150" alt="logo"></a>
-<a href="login.html">Login</a>
-    </div>
-    <div>
-        <div>
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"></a></div>
+<container style="height: fit-content; width: fit-content;">    
+        <header>
+            <a href="index.html">
+            <img src="\assests\images\logo.png" alt="logo" style="height: 60px; width: 60px;"></a>
+            <a href="login.html">Login</a>
+        </header>
+      
+            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 500px; width: 500px;" ></a></div>
             <div><a href="payment.html">Book Now</a>
         </div>
         <div>
             <form>
-            <form action="/action_page.php">
-                Adult: <input type="number"  name="total" required>
+            <form action="/action_page.php" >
+                Adult: <input type="number" placeholder="1"  name="total" min="1" required>
             <br>
             <form action="/action_page.php">
                 Name: <input type="text" name="usrname" required>
@@ -36,7 +36,7 @@
             Total :<input type="Expense" name="total" disabled="disabled" >
             <br>
              
-            <input type="button" onclick="window.location.href='payment.html';" value="Submit">
+            <input type="button" onclick="window.location.href='payment.html';" value="Book Now">
 
         </form>
         
@@ -68,18 +68,20 @@
             <h5>DESCRIPTION</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nobis ratione eveniet vel ab commodi, officia, culpa sapiente placeat assumenda ipsa esse explicabo nihil corrupti, repudiandae debitis exercitationem quia tempore?</p>
         </div>
-    <div>
-        <a href="contact.html">Contact Us</a>
+        <footer>    <div>
+        <a href="contact.html">Contact Us</a></div>
         <div>
             <a href="https://www.facebook.com">
-                <img src="assests/images/facebook.png" height="20" width="22"></a>
+                <img src="assests/images/facebook.png" style="height: 20px ;width:22px";></a>
             <a href="https://www.instagram.com">
-        <img src="assests/images/instagram.png" height="20" width="22"></a>
+        <img src="assests/images/instagram.png" style="height: 20px ;width:22px";></a>
         <a href="https://twitter.com">
-            <img src="assests/images/twitter.png" height="20" width="22"></a>
+            <img src="assests/images/twitter.png" style="height: 20px ;width:22px";></a>
     </div>
     <div>&#169; 2020 ROOM SEARCH PVT LTD</div>     
     </div>
+</footer>
+</container>
 </body>
 </div>
 </html>
