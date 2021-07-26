@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles\index.css">
 <title>Index</title>
-    <div class="overlay ">
-       
-<body >
-    <container>
+<body style="font-family:'Ubuntu',sans-serif;">
+    
         <header>
-            <img src="\assests\images\logo.png" alt="logo" style="height: 60px; width: 60px;">
-            <div id="login">
-                <a href="login.html">Login</a>
-            </div>
+            <img src="\assests\images\logo.png" alt="logo" style="height: 60px; width: 60px;margin-right: 1%;">
+                <a href="login.html"class="login" >Login</a>
         </header>
-    <div id="div1"  >
-        <div style="padding:150px;border-radius: 12px;font-size: 16px;width:80%;height: auto;"><input type="text" placeholder="City"></div>
-    </div>
+        <container style="display:flexbox;">
+    <form class="div1">
+        <div style="padding:150px;width:80%;height: auto;opacity: 1;border:1px;
+    "><input type="text" placeholder="City" style="border-radius: 12px;padding-left: 10px;font-size: 16px;border: 1px;outline: none;"></div>
+    </form>
 
-    <div id="para">
-        <a href="list.html">
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" style="position: center;margin-left:5%; padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%;border-radius:25%"></a>
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"style="position: center;  padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%;border-radius:25%">
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"style="position: center;; padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%;border-radius:25%">
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"style="position: center; padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%;border-radius:25%;margin: right 5%;">
+    <div id="div2" style="display: flexbox;">
+        <a class="mum" href="list.html" >
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" style="position: center;border-radius:25%; padding-top: 4%;padding-left: 15%;padding-right: 4%;padding-bottom: 4%"></a>
+        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"style="position: center;  border-radius:25%;padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%
+       ">
+       <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"style="position: center;border-radius:25%; padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%">
+       <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"style="position: center; border-radius:25%;padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%">
         </div>
     
         <div id="View">        
@@ -32,15 +31,16 @@
             padding-bottom: 10px;" >View More>></a>
         </div>
         <footer>
-            <a href="contact.html" class="contact">Contact Us</a>
-        <div  id="social">
+            <br>
+            <a href="contact.html" id="contact" >Contact Us</a>
+        <nobr><div  id="social">
                 <a href="https://www.facebook.com">
                 <img src="assests/images/facebook.png" style="width: 22px; height: 20px;"></a>
                 <a href="https://www.instagram.com">
                 <img src="assests/images/instagram.png" style="width: 22px; height: 20px;"></a>
                 <a href="https://twitter.com">
-                <img src="assests/images/twitter.png" height="20" width="22"style="width: 22px; height: 20px;"></a>
-        </div>
+                <img src="assests/images/twitter.png" style="width: 22px; height: 20px;"></a>
+        </div></nobr>
         <div id="copy">&#169; 2020 ROOM SEARCH PVT LTD</div></footer>
 </container>
 </body>

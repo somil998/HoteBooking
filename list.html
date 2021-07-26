@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html>
 <title>List</title>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles\list.css">
 <div>
-<body>
+<body style="font-family:'Ubuntu',sans-serif;">  
     <container >
-        <header style="background-color: rosybrown;">
+        <header>
             <img src="\assests\images\logo.png" alt="logo" style="height: 60px; width: 60px;">
-            <div id="login"><a href="login.html">Login</a></div>
+                <a href="login.html" class="login">Login</a>
+           
         </header>
-        <div id="list" >
-                <b><a href="#pool" style="padding-right: 30px;">List View   </a></b>
-                <b><a href="#map">  Map View</a></b>
+        <div id="list" style=" margin-top: 5%;" >
+                <b><a href="#pool" style="padding-right: 30px;text-decoration: none;color: black; margin-top: 5%;">List View   </a></b>
+                <b><a href="#map" style="text-decoration: none;color: black; margin-top: 5%;">  Map View</a></b>
         </div>
             <content> 
         <div id="pool">
-                            <a href="detail.html">
+                <a href="detail.html">
                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" style="height: 150px; width: 150px;"></a>
                 <a href="detail.html">
-                <nobr><h3>Radisson Blue Hotel</h3></nobr></a>
+                <nobr><h3 style="text-decoration:none;color: black;">Radisson Blue Hotel</h3></nobr></a>
                 <p>5 star</p>
                 <p >New Delhi</p>
     </div>
    
-    <div id="lalit" style="justify-content:space-evenly;">
+    <div id="lalit">
         <img src="https://media-cdn.tripadvisor.com/media/photo-w/15/06/31/5f/facade.jpg"style="height: 150px; width: 150px;">
                 <b><h3>The Lalit Hotel</h3></b>
                 <p>4.5 star</p>
@@ -36,22 +38,23 @@
                 <p>New Delhi</p>
     </div> 
     <div id="map">
-                <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+        <!-- Do not display this image at the moment
+        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png"> -->
     </div>
     </content>
         <div>
-            MAP VIEW
-            <footer>
-                <a href="contact.html" class="contact">Contact Us</a>
-            <div  id="social">
-                    <a href="https://www.facebook.com">
-                    <img src="assests/images/facebook.png" style="width: 22px; height: 20px;"></a>
-                    <a href="https://www.instagram.com">
-                    <img src="assests/images/instagram.png" style="width: 22px; height: 20px;"></a>
-                    <a href="https://twitter.com">
-                    <img src="assests/images/twitter.png" height="20" width="22"style="width: 22px; height: 20px;"></a>
-            </div>
-            <div id="copy">&#169; 2020 ROOM SEARCH PVT LTD</div></footer>
+           <!-- Do not display this image at the moment MAP VIEW-->
+           <footer>
+            <a href="contact.html" class="contact" >Contact Us</a>
+        <div  id="social">
+                <a href="https://www.facebook.com">
+                <img src="assests/images/facebook.png" style="width: 22px; height: 20px;"></a>
+                <a href="https://www.instagram.com">
+                <img src="assests/images/instagram.png" style="width: 22px; height: 20px;"></a>
+                <a href="https://twitter.com">
+                <img src="assests/images/twitter.png" style="width: 22px; height: 20px;"></a>
+        </div>
+        <div id="copy">&#169; 2020 ROOM SEARCH PVT LTD</div></footer>
 </container>
 </body>
 </div>

@@ -1,30 +1,54 @@
 .container{
     justify-content: center;
 }
+header{
+    background-color: rosybrown;
+    top: 0;
+    position: sticky;
+}
+.login{ 
+    padding-top:2%;
+    padding-right: 2%;
+    color: black;
+    text-decoration:none;
+    float: right;
+    margin: auto;
+}
 body{
     background-color: #e0e0e0;
+    margin: 0;
+    min-height: 100%; 
+
 }
 img{
-    margin-left: 2%;
+   
     margin-bottom: 2%;
     margin-right: 2%;
     
 }
 #pool{
-    margin-left: 2%;
+    margin-left: 10%;
+    margin-top: 4%;
     background-color: rgb(132, 136,139);
     width: 30%;
     height: auto;
+    position:inherit;
+    
 }
 #lalit{
-    margin-left: 2%;    
+    margin-right: 10%;
+    margin-top: 4%;
     background-color: rgb(132, 136,139);
     width: 30%;
     height: auto;
-
+    margin-bottom: 15%;
+    float: right;
+    
 }
 #taj{
-    margin-left: 2%; margin-bottom: 2%;position:static;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 5%;position:static;
     background-color: rgb(132, 136,139);
     width: 30%;
     height: auto;
@@ -40,8 +64,7 @@ img{
 }
 #list{
     list-style-type:circle; text-align: center;
-    
-    -moz-text-decoration-color: black;
+    margin-top: 5%;
     text-decoration: none;
     text-decoration-color: black; 
 }
@@ -51,19 +74,25 @@ img{
     text-align: center; 
     padding-bottom: 10px;
     }
-.contact{  
-    color: black;
-    text-decoration: none;
-    text-align: center;    
-}
-#social{
-    text-align: right;
-}
-#copy{
-    text-align: center;
-    font-size: 10px;
+    .contact{  
     
-}
-footer{
-    background-color: rosybrown;
-}
+        padding-left: 2%;
+        padding: auto;
+        color: black;
+        text-decoration: none;
+        
+    }
+    #social{
+        text-align: right;
+    }
+    #copy{
+        text-align: center;
+        font-size: 10px;
+        
+    }
+    footer{
+        background-color: rosybrown;
+        bottom: 0;
+        position: sticky;
+    }
+    
