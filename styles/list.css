@@ -1,98 +1,53 @@
-.container{
-    justify-content: center;
-}
-header{
-    background-color: rosybrown;
-    top: 0;
-    position: sticky;
-}
-.login{ 
-    padding-top:2%;
+.view {
+    text-decoration: none;
+    padding-left: 42%;
     padding-right: 2%;
-    color: black;
-    text-decoration:none;
-    float: right;
-    margin: auto;
-}
-body{
-    background-color: #e0e0e0;
-    margin: 0;
-    min-height: 100%; 
 
 }
-img{
-   
-    margin-bottom: 2%;
-    margin-right: 2%;
-    
+.hotelImage {
+    height: 250px;
+    width: 250px;
+    align-self: flex-start;
 }
-#pool{
-    margin-left: 10%;
-    margin-top: 4%;
-    background-color: rgb(132, 136,139);
-    width: 30%;
+.map-view{
+    display: none;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-info {
+    flex: 1 1 auto;
+    margin: 5%;
+    justify-content: center;
+    width:300px;
+}
+.contentDiv {
+
+    margin: 3%;
+    background-color:lightgrey;
+    width: 600px;
     height: auto;
-    position:inherit;
-    
+    display: flex;
+    flex: 30%;  
+
 }
-#lalit{
-    margin-right: 10%;
-    margin-top: 4%;
-    background-color: rgb(132, 136,139);
-    width: 30%;
-    height: auto;
-    margin-bottom: 15%;
-    float: right;
-    
+h3{
+    padding-bottom: 4%;
+} 
+#linkStyle{
+    font-weight: bold;
+    padding-top: 5px;
 }
-#taj{
-    margin-left: 10%;
-    margin-top: 4%;
-    margin-bottom: 5%;position:static;
-    background-color: rgb(132, 136,139);
-    width: 30%;
-    height: auto;
+*{
+text-decoration: none;
+color: black;
 }
-#login{
-    color: black;
-    text-decoration: none;
-    text-align:right; ;
-    margin: auto;
-    right: 0px;
-    width: 1200px;
-    position: relative; 
+.content{
+padding:4%;
 }
-#list{
-    list-style-type:circle; text-align: center;
-    margin-top: 5%;
-    text-decoration: none;
-    text-decoration-color: black; 
-}
-#View{
-    color: black;
-    text-decoration: none;
-    text-align: center; 
-    padding-bottom: 10px;
-    }
-    .contact{  
-    
-        padding-left: 2%;
-        padding: auto;
-        color: black;
-        text-decoration: none;
-        
-    }
-    #social{
-        text-align: right;
-    }
-    #copy{
-        text-align: center;
-        font-size: 10px;
-        
-    }
-    footer{
-        background-color: rosybrown;
-        bottom: 0;
-        position: sticky;
-    }
-    
+.links{
+    display:flex;
+    margin:2%;
+  } 

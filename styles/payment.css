@@ -1,60 +1,67 @@
-#pool{
-    margin-top: 2%;margin-bottom: 2%;
-    background-color: rgb(132, 136,139);
-    width: 50%;
-    height: 20%;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-#tarrif{
-    margin-left: 2%;margin-right: 2%;margin-bottom: 2%;margin-top: 2%;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding-left: 2%;
-    padding-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-}
-header{
-    background-color: rosybrown;
-    top: 0;
-    position: sticky;
-}
-.login{ 
-    padding-top:2%;
-    padding-right: 2%;
-    color: black;
-    text-decoration:none;
-    float: right;
-    margin: auto;
-}
-body{
+body {
+    width : 100%;
+    height: 100%;
     background-color: #e0e0e0;
-    margin: 0;
-    min-height: 100%; 
+    font-family: 'Ubuntu', sans-serif;
 
 }
-.contact{  
-    color: black;
+.hotelImage {
+    height:300px;
+    width:270px;    
+}
+#info{
+    display:flex;
+    flex-direction:column;
+    height:300px;
+    width:400px;
+    background-color:grey;
+    justify-content:center;
+    align-items:center;
+    row-gap: 6px;
+  }
+  .container{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+    margin:3%;
+  }
+  .container1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    margin:3%;
+  }
+  .container2{
+    display:flex;
+    border:1px solid black;
+    border-radius:5px;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-top:1%;
+    padding-bottom:1%;
+    background-color:rosybrown;
+    margin:auto 2%;
+  }
+  b{
+    font-family: cursive;  
+  }
+  #pay-link{
     text-decoration: none;
-    text-align: center;    
-}
-#social{
-    text-align: right;
-}
-#copy{
-    text-align: center;
-    font-size: 10px;
-    
-}
-.pay{
     color: black;
-    text-decoration: none;
-    padding-bottom: 10px;
+    font-weight: bold;
+   
 }
-footer{
-    background-color: rosybrown;
-    bottom: 0;
-    position: sticky;
-}
+
+.customer {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    row-gap: 5px;
+ }
+
+ .total {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    row-gap: 5px;
+ } 

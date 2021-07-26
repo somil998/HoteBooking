@@ -1,48 +1,68 @@
 <!DOCTYPE html>
 <html>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles\index.css">
-<title>Index</title>
-<body style="font-family:'Ubuntu',sans-serif;">
+  <head>
+    <title>index</title>
+    <link rel="stylesheet" href="styles/index.css"> 
+    <link rel="stylesheet" href="styles/common.css">  
     
-        <header>
-            <img src="\assests\images\logo.png" alt="logo" style="height: 60px; width: 60px;margin-right: 1%;">
-                <a href="login.html"class="login" >Login</a>
-        </header>
-        <container style="display:flexbox;">
-    <form class="div1">
-        <div style="padding:150px;width:80%;height: auto;opacity: 1;border:1px;
-    "><input type="text" placeholder="City" style="border-radius: 12px;padding-left: 10px;font-size: 16px;border: 1px;outline: none;"></div>
-    </form>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+    </style>
+</head>
 
-    <div id="div2" style="display: flexbox;">
-        <a class="mum" href="list.html" >
-            <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" style="position: center;border-radius:25%; padding-top: 4%;padding-left: 15%;padding-right: 4%;padding-bottom: 4%"></a>
-        <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"style="position: center;  border-radius:25%;padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%
-       ">
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"style="position: center;border-radius:25%; padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%">
-       <img src="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg"style="position: center; border-radius:25%;padding-top: 4%;padding-left: 4%;padding-right: 4%;padding-bottom: 4%">
-        </div>
+<body>
+<div id = "full">
+<header>
+   <a href="index.html"><img class = "logo" src = "assests/images/logo.png"></a> 
+    <a href = "login.html" target="_blank" class="login">Login</a>
+</header>
+<div>
+        <div id = "backImage" >
+        <input id = "boxStyle" type = "text" placeholder = "City">
+    </div>
+
+    <div class="cityImageStyle">
+
+
+        <div class="container">
+        <a href = "list.html" ><img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg">
+        <div class = "whenhover">
+        <div class="text">Delhi</div>
+        </div></a></div>
     
-        <div id="View">        
-            <a href="index.html" style="color: black;
-            text-decoration: none;
-            text-align: center; 
-            padding-bottom: 10px;" >View More>></a>
-        </div>
-        <footer>
-            <br>
-            <a href="contact.html" id="contact" >Contact Us</a>
-        <nobr><div  id="social">
-                <a href="https://www.facebook.com">
-                <img src="assests/images/facebook.png" style="width: 22px; height: 20px;"></a>
-                <a href="https://www.instagram.com">
-                <img src="assests/images/instagram.png" style="width: 22px; height: 20px;"></a>
-                <a href="https://twitter.com">
-                <img src="assests/images/twitter.png" style="width: 22px; height: 20px;"></a>
-        </div></nobr>
-        <div id="copy">&#169; 2020 ROOM SEARCH PVT LTD</div></footer>
-</container>
-</body>
+
+        <div class="container">
+            <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" alt = "Goa">
+            <div class = "whenhover">
+                <div class="text">Goa</div>
+            </div></div>
+
+            <div class="container">
+            <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" alt = "Hyderabad">
+            <div class = "whenhover">
+            <div class="text">Hyderabad</div>
+            </div></div>
+
+            <div class="container">
+            <img class = "cityImage" src = "https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" alt = "Kolkata">
+            <div class = "whenhover">   
+            <div class="text">Kolkata</div>
+                </div></div>
+    </div> 
+            <div class="view-more"><a href="" class= "textStyle">View More >></a></div>       
+      </div>
+
+
+<footer>
+<span><a href = "contact.html" target="_blank" id="contactus">Contact Us</a></span>
+<span id="copyright"> © 2020 ROOM SEARCH PVT. LTD</span>
+    <span>
+        <a href = "https://www.facebook.com" target="_blank"><img class ="social-icons" src = "assests/images/facebook.png"  ></a>
+        <a href = "https://www.instagram.com" target="_blank"><img class ="social-icons" src = "assests/images/instagram.png" ></a>
+        <a href = "https://www.twitter.com" target="_blank"><img class ="social-icons" src = "assests/images/twitter.png"></a>
+</span>
+
+</footer>
+
 </div>
+</body>
 </html>
